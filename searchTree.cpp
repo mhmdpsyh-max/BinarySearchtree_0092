@@ -43,6 +43,8 @@ class BinaryTree{
         }
 
         if(element< parent ->info)
-        
+        {
+            parent->leftchild = newNode;
+        }
     }
 };
