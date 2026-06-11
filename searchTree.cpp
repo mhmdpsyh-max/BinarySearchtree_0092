@@ -17,11 +17,15 @@ class Node
         rightchild = r;
     }
 };
-//Membuat class tree
+//Membuat class BinaryTree
 class BinaryTree{
     public:
     Node *root ;
     BinaryTree(){
         root = NULL;
+    }
+    void insert(string element){
+        Node *newNode = new Node(element, NULL, NULL);
+        
     }
 };
