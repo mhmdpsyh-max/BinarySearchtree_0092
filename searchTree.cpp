@@ -10,6 +10,5 @@ class Node
     Node *rightchild;
 
     //Contructor for the node class
-
-
+    Node (string i, Node *l ,Node *r)
 }
