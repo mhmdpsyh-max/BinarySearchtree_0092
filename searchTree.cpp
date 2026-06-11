@@ -39,7 +39,10 @@ class BinaryTree{
         if (parent == NULL)
         {
             root = newNode;
+            return;
         }
 
+        if(element< parent ->info)
+        
     }
 };
