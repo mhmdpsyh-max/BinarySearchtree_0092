@@ -104,6 +104,7 @@ void preorder(Node *ptr)
 
 void postorder(Node *ptr)
 {
+    // Performs the postorder traversal of the tree
     
 }
 };
