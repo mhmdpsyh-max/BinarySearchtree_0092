@@ -95,6 +95,15 @@ void preorder(Node *ptr)
     }
 
     if (ptr != NULL)
+    {
+        cout << ptr->info << "  ";
+        preorder(ptr->leftchild);
+        preorder(ptr->rightchild);
+    }
+}
+
+void postorder(Node *ptr)
+{
     
 }
 };
