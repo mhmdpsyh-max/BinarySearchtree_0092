@@ -11,4 +11,17 @@ class Node
 
     //Contructor for the node class
     Node (string i, Node *l ,Node *r)
-}
+    {
+        info = i;
+        leftchild = 1;
+        rightchild = r;
+    }
+};
+//Membuat class tree
+class BinaryTree{
+    public:
+    Node *root ;
+    BinaryTree(){
+        root = NULL;
+    }
+};
