@@ -46,5 +46,12 @@ class BinaryTree{
         {
             parent->leftchild = newNode;
         }
+        else if(element > parent->info)
+        {
+            parent->rightchild = newNode;
+        }
     }
 };
+
+// This function searches the current node of the specified node
+
